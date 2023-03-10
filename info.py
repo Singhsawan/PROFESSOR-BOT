@@ -59,7 +59,7 @@ G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
 
 # url shortner
-SHORT_URL = environ.get("omegalinks.in")
+SHORT_URL = environ.get("http://omegalinks.in")
 SHORT_API = environ.get("bf56e643ddbd84748b7567d820d8c51b44f0bca7")
 
 # Others
