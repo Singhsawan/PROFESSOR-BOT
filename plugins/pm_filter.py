@@ -70,6 +70,17 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
         btn.append(
             [InlineKeyboardButton(text="📄 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
+btn.insert(0, [
+        InlineKeyboardButton('! ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ !', url='https://t.me/+4nzja42ELQwzOWVl')
+    ])
+    try:
+        await query.edit_message_reply_markup(
+            reply_markup=InlineKeyboardMarkup(btn)
+        )
+    except MessageNotModified:
+        pass
+    await query.answer() 
+    
     if PM_IMDB.strip().lower() in ["true", "yes", "1", "enable", "y"]:
         imdb = await get_poster(search)
     else:
