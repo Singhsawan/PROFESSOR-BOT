@@ -336,7 +336,7 @@ Delete A Lot Of Messages From Groups!
 <code>/video https://youtu.be/*****</code>  """
 
 
-   IMDB_TEMPLATE = """
+     IMDB_TEMPLATE = """
 <b>Query: {qurey}
 
 IMDb Data:
