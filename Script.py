@@ -348,9 +348,7 @@ IMDb Data:
 ☀️ Languages : <code>{languages}</code>
 📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
-
-Requested by : {message.from_user.mention}</b>"""   
+🎛 Countries : <code>{countries}</code>"""   
 
 
     
